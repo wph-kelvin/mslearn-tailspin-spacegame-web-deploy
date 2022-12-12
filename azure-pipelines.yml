@@ -5,7 +5,7 @@ variables:
   buildConfiguration: 'Release'
   dotnetSdkVersion: '6.x'
 
-stages:
+stages: 
 - stage: 'Build'
   displayName: 'Build the web application'
   jobs: 
